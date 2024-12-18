@@ -40,6 +40,7 @@
 .main_visual {
     position: relative;
 
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), 0 100%);
 }
 
 .main_visual .main_visual_slide .itm {
@@ -321,7 +322,7 @@
 
     transition: 0.2s;
 
-
+    clip-path: polygon(0 80px, 100% 0, 100% 100%, 0 100%);
 }
 
 .main_product .title h2 {
